@@ -9,7 +9,10 @@ const Home = () => {
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full Stack Developer</h2>
-                    <p className='text-gray-500 py-4 text-justify mx-w-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sed voluptatem id perferendis accusamus ex et, cum voluptatum perspiciatis! Deserunt a illum in libero asperiores quo illo eaque doloremque officiis!</p>
+                    <p className='text-gray-500 py-4 text-justify mx-w-md'>
+                        I am a software engineer. Currently, I am looking forward for a position as a junior developer at software company.
+                        I can write code in different languages like C, C#, Java, JavaScript, PHP and Python. However, nowadys, I am focusing on full stack developent with HTML, CSS, JavaScript, React, Node, and MongoDB.  
+                    </p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             Portfolio 

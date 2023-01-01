@@ -1,12 +1,12 @@
 import html from '../assets/html.png';
 import css from '../assets/css.png';
-//import bootstrap from '../assets/bootstrap.png';
+import bootstrap from '../assets/bootstrap.png';
 import tailwind from '../assets/tailwind.png';
 import javascript from '../assets/javascript.png';
 import reactImage from '../assets/reactImage.png';
-//import expressjs from '../assets/expressjs.png';
-//import mongodb from '../assets/mongodb.png';
-import github from '../assets/github.png';
+import node from '../assets/node.png';
+import express from '../assets/express.png';
+import mongodb from '../assets/mongodb.png';
 
 const Experience = () => {
     const techs = [
@@ -24,28 +24,46 @@ const Experience = () => {
         },
         {
             id: 3,
-            src: javascript,
-            title: 'JavaScript',
-            style: 'shadow-yellow-500'
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-purple-500'
         },
         {
             id: 4,
-            src: reactImage,
-            title: 'React',
-            style: 'shadow-blue-600'
-        },
-        {
-            id: 5,
             src: tailwind,
             title: 'Tailwind',
             style: 'shadow-sky-400'
         },
         {
+            id: 5,
+            src: javascript,
+            title: 'JavaScript',
+            style: 'shadow-yellow-500'
+        },
+        {
             id: 6,
-            src: github,
-            title: 'GitHub',
+            src: reactImage,
+            title: 'React',
+            style: 'shadow-blue-600'
+        },
+        {
+            id: 7,
+            src: node,
+            title: 'Node',
+            style: 'shadow-green-300'
+        },
+        {
+            id: 8,
+            src: express,
+            title: 'Express',
             style: 'shadow-gray-400'
         },
+        {
+            id: 9,
+            src: mongodb,
+            title: 'MongoDB',
+            style: 'shadow-green-900'
+        }
     ]
     return (
         <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>

@@ -8,11 +8,18 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-grey-500'>About</p>
                 </div>
                 <p className='text-xl mt-20 text-justify'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, consectetur commodi. Maiores sunt enim alias voluptates soluta et earum voluptatem praesentium, doloremque amet quod excepturi, nostrum ipsam eos quam unde aliquid voluptas delectus illo dolorum inventore, aliquam neque voluptatum consequuntur. Doloremque consectetur saepe eum neque distinctio, quae adipisci suscipit quisquam!
+                    I am originally from Bangladesh. Currently, I have been living in Finland for 6-year. 
+                    Moreover, I have completed my bachelor degree in Software Engineering from the Daffodil International University, and master's degree in Information Technology from the University of Eastern Finland, Finland. 
                 </p>
                 <br />
                 <p className='text-xl text-justify'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam odit, quidem repudiandae aliquam similique rem consequatur ipsa blanditiis asperiores explicabo quo atque eaque, vero laborum voluptates, laboriosam sed consectetur soluta modi deleniti dicta. Repudiandae, voluptas! Impedit suscipit qui quis eveniet ipsa itaque ad atque minus, possimus voluptatem aperiam numquam magnam.
+                    During my study period, I have been introduced with various programming languages like C, C++, C#, Java, JavaScript, PHP, Python, and so no.
+                    However, after completing my master's degree, I am focusing on JavaScript particularly, because of being mastering with one language to get a job.  
+                </p>
+                <p className='text-xl text-justify mt-6'>
+                    I like to spend my leisure time by surfing internet especially watching youtube videos.
+                    However, my ultimate goal is to find a job in software company, and become a full stack developer.
+                    Beside that, my dream is to get the finnish nationality - most happiest country over the world. 
                 </p>
             </div>
         </div>
