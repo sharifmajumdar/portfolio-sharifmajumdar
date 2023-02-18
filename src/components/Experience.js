@@ -66,11 +66,11 @@ const Experience = () => {
         }
     ]
     return (
-        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+        <div name="experience" className='bg-white dark:bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500 p-2'>Experience</p>
-                    <p className='py-6'>Familiarized with these technologies</p>
+                    <p className='text-4xl text-gray-500 font-bold inline border-b-4 border-gray-500 p-2'>Experience</p>
+                    <p className='py-6 text-gray-500'>Familiarized with these technologies</p>
                 </div>
                 <div className='grid grid-cols-2 w-full sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
                     {
