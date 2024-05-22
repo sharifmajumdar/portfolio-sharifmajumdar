@@ -1,25 +1,25 @@
 import NavBar from "./components/NavBar";
-import Home from "./components/Home";
+import Etusivu from "./components/Etusivu";
 import SocialLinks from "./components/SocialLinks";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Experience from "./components/Experience";
-import Contact from "./components/Contact";
+import Lounas from "./components/Lounas";
+import Alacarte from "./components/Alacarte";
+import Välipalat from "./components/Välipalat";
+import Yhteystiedot from "./components/Yhteystiedot";
 import DarkMode from "./components/DarkMode";
 
 const App = () => {
   return (
     <div>
       <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact />
+      <Etusivu />
+      <Lounas />
+      <Alacarte />
+      <Välipalat />
+      <Yhteystiedot />
       <SocialLinks />
       <DarkMode />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
